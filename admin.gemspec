@@ -7,11 +7,11 @@ require "admin/version"
 Gem::Specification.new do |s|
   s.name        = "admin"
   s.version     = Admin::VERSION
-  s.authors     = ["TODO: Your name"]
-  s.email       = ["TODO: Your email"]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of Admin."
-  s.description = "TODO: Description of Admin."
+  s.authors     = ["Andreas Altendorfer"]
+  s.email       = ["andreas@altendorfer.at"]
+  s.homepage    = "http://a64.iboard.cc"
+  s.summary     = "Admin-Engine for project A64"
+  s.description = "http://iboard.github.com"
 
   s.files = Dir["{app,config,db,lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.md"]
   s.test_files = Dir["test/**/*"]
