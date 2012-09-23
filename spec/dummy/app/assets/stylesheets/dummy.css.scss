@@ -1,0 +1,21 @@
+html {
+  background: #485158;
+}
+body {
+  width: 80%;
+  margin:auto;
+  background: white;
+  padding: 20px;
+  margin-top: 10px;
+  border: 1px solid black;
+}
+
+header {
+  text-align: right;
+}
+footer {
+  postion: absolute;
+  bottom: 0px;
+  font-size: 0.75em;
+  text-align: center;
+}

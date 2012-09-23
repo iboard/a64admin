@@ -9,5 +9,9 @@
  * compiled file, but it's generally better to create a new file per style scope.
  *
  *= require_self
- *= require_tree .
+ *= require admin/admin
+ *= require admin/modifiers
+ *= require admin/widgets
+ *= require admin/menu_left
+ *= require admin/sidebar
  */

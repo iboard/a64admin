@@ -1,0 +1,47 @@
+@import "constants";
+
+body {
+  font-family: "Helvetica Neue";
+}
+
+footer {
+  text-align: center;
+  font-size: 0.75em;
+  margin-bottom: 0px;
+}
+
+
+.brand {
+  a { color: #000; }
+  border-right: 1px solid #aaa;
+}
+
+.btn-primary-link {
+  a {
+    color: $darkBtnLinkColor;
+    &:hover {
+      color: $darkBtnLinkColor;
+      text-decoration: none;
+    }
+  }
+}
+
+.btn {
+  a {
+    &:hover { text-decoration: none; }
+  }
+}
+
+
+.dropdown {
+  font-weight: 200;
+  color: #000;
+  letter-spacing: 1.5px;
+  a.dropdown-toggle {
+    color: #000;
+  }
+  &:hover {
+    color: #444;
+    text-shadow: 1px 1px 2 #000;
+  }
+}
