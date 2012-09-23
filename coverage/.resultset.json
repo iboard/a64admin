@@ -1,0 +1,50 @@
+{
+  "RSpec": {
+    "coverage": {
+      "/Users/aa/Development/a64/rails/admin/lib/admin.rb": [
+        1,
+        null,
+        1,
+        null
+      ],
+      "/Users/aa/Development/a64/rails/admin/lib/admin/engine.rb": [
+        1,
+        1,
+        1,
+        null,
+        null
+      ],
+      "/Users/aa/Development/a64/rails/admin/app/controllers/admin/admin_controller.rb": [
+        1,
+        null,
+        1,
+        1,
+        1,
+        null,
+        null,
+        null
+      ],
+      "/Users/aa/Development/a64/rails/admin/app/controllers/admin/application_controller.rb": [
+        1,
+        1,
+        1,
+        null,
+        null,
+        null
+      ],
+      "/Users/aa/Development/a64/rails/admin/app/helpers/admin/application_helper.rb": [
+        1,
+        1,
+        null,
+        null
+      ],
+      "/Users/aa/Development/a64/rails/admin/app/helpers/admin/admin_helper.rb": [
+        1,
+        1,
+        null,
+        null
+      ]
+    },
+    "timestamp": 1348404032
+  }
+}
