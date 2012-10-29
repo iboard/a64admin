@@ -4,11 +4,16 @@ module Admin
 
   class AdminController < ApplicationController
 
+    def current_user
+      return $mocked_user if defined?($mocked_user) && $mocked_user != nil
+      return nil unless session[:user_id].present?
+      @current_user ||= User.find(session[:user_id])
+    end
+
     before_filter :authenticate_admin!
 
     def index
     end
-
 
     private
     def authenticate_admin!

@@ -14,7 +14,7 @@ describe Admin::AdminController do
 
   describe "When an admin is logged in" do
 
-    before { sign_in_as_admin }
+    before(:each) { sign_in_as_admin() }
 
     it "should show a dashboard" do
       visit admin_path
