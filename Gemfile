@@ -27,6 +27,7 @@ end
 group :development do
   gem "capistrano"
   gem "yard"
+  gem "launchy"
 end
 
 # APPLICATION

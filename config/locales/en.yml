@@ -1,0 +1,4 @@
+en:
+  admin:
+   action:
+     needs_sign_in: "Action '%{action}' needs to sign in"
